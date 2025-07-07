@@ -3,15 +3,15 @@ import time
 import jwt
 
 # Open PEM
-private_key = """-----BEGIN PRIVATE KEY-----MC4CAQAwBQYDK2VwBCIEIPI/KjxSHz04bH9EbpN6RRlKmEhpj2GuwCzludl5DRs4-----END PRIVATE KEY-----"""
+private_key = """YOUR_PRIVATE_KEY"""
 
 payload = {
     'iat': int(time.time()) - 30,
     'exp': int(time.time()) + 900,
-    'sub': '2C2EQF4RUU'
+    'sub': YOUR_PROJECT_ID
 }
 headers = {
-    'kid': 'CEGW84ANFP'
+    'kid': YOUR_KEY_ID
 }
 
 # Generate JWT
