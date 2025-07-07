@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/duoyun.png</file>
+        <file>image/qing.png</file>
+        <file>image/PM2.png</file>
+        <file>image/fengsu.png</file>
+        <file>image/kongqi.png</file>
+        <file>image/shidu.png</file>
+        <file>image/qingtian.png</file>
+        <file>image/sousuo.png</file>
+        <file>image/tuichu.png</file>
+        <file>getToken.bat</file>
+        <file>image/baoyv.png</file>
+        <file>image/xiaoyv.png</file>
+        <file>image/yintian.png</file>
+        <file>image/zhongyv.png</file>
+        <file>image/baoxve.png</file>
+        <file>image/leizhenyv.png</file>
+    </qresource>
+</RCC>
